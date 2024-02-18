@@ -23,7 +23,7 @@ export function BlogPostCard({
                 <img
                     src={img}
                     alt={title}
-                    className="h-full max-h-[300px] w-full max-w-[400px] group-hover:scale-110 transition-transform object-cover"
+                    className="h-full max-h-[300px] w-full max-w-[760px] group-hover:scale-110 transition-transform object-cover"
                 />
             </CardHeader>
             <CardBody className="p-6">
