@@ -33,13 +33,12 @@ const NAV_MENU = [
 
 
 // eslint-disable-next-line react/prop-types
-function NavItem({ children, href }) {
+function NavItem({ children }) {
     return (
         <li>
             <Typography
                 as="a"
-                href={href || "#"}
-                target={href ? "_blank" : "_self"}
+                href="#"
                 variant="paragraph"
                 color="gray"
                 className="flex items-center gap-2 font-medium text-gray-900"
@@ -67,8 +66,8 @@ export function Navbar() {
             <div className="container mx-auto flex items-center justify-between">
                 <Typography
                     as="a"
-                    href="https://www.material-tailwind.com"
-                    target="_blank"
+                    href="#"
+
                     color="blue-gray"
                     className="text-lg font-bold"
                 >
@@ -84,9 +83,7 @@ export function Navbar() {
                 </ul>
                 <div className="hidden items-center gap-2 lg:flex">
                     <Button variant="text">Sign In</Button>
-                    <a href="https://www.material-tailwind.com/blocks" target="_blank">
-                        <Button color="gray">blocks</Button>
-                    </a>
+
                 </div>
                 <IconButton
                     variant="text"
@@ -113,9 +110,7 @@ export function Navbar() {
                     </ul>
                     <div className="mt-6 mb-4 flex items-center gap-2">
                         <Button variant="text">Sign In</Button>
-                        <a href="https://www.material-tailwind.com/blocks" target="_blank">
-                            <Button color="gray">blocks</Button>
-                        </a>
+
                     </div>
                 </div>
             </Collapse>
