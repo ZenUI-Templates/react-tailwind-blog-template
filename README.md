@@ -1,4 +1,3 @@
-# React-Tailwind-Blog-Template by <a href="https://github.com/yeasinshakil">Yeasin Shakil</a>
+# ZenUI Library Template
 
-## Live Link 
-### https://react-tailwind-blog-template.netlify.app/
+- visit our website to get more components and templates http://zenui-library.com
